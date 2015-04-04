@@ -1,0 +1,123 @@
+linters:
+  BangFormat:
+    enabled: true
+    space_before_bang: true
+    space_after_bang: false
+
+  BorderZero:
+    enabled: true
+    convention: 'none'
+
+  ColorKeyword:
+    enabled: true
+
+  ColorVariable:
+    enabled: true
+
+  Comment:
+    enabled: true
+
+  DebugStatement:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: true
+
+  DuplicateProperty:
+    enabled: true
+
+  ElsePlacement:
+    enabled: true
+    style: same_line
+
+  EmptyLineBetweenBlocks:
+    enabled: true
+    ignore_single_line_blocks: true
+
+  EmptyRule:
+    enabled: true
+
+  FinalNewline:
+    enabled: true
+    present: true
+
+  HexLength:
+    enabled: true
+    style: short
+
+  HexNotation:
+    enabled: true
+    style: lowercase
+
+  HexValidation:
+    enabled: true
+
+  IdSelector:
+    enabled: true
+
+  ImportantRule:
+    enabled: true
+
+  ImportPath:
+    enabled: true
+    leading_underscore: false
+    filename_extension: false
+
+  Indentation:
+    enabled: true
+#    allow_non_nested_indentation: true
+    character: space
+    width: 2
+
+  LeadingZero:
+    enabled: true
+    style: include_zero
+
+  MergeableSelector:
+    enabled: true
+    force_nesting: true
+
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: true
+#    convention: BEM
+
+  NestingDepth:
+    enabled: true
+    max_depth: 3
+
+  PlaceholderInExtend:
+    enabled: true
+
+  PropertyCount:
+    enabled: true
+    included_nested: false
+    max_properties: 8
+
+  PropertySortOrder:
+    enabled: true
+
+  PropertySpelling:
+    enabled: true
+
+  SelectorFormat:
+    enabled: true
+
+  Shorthand:
+    enabled: true
+
+  SingleLinePerProperty:
+    enabled: true
+
+  SingleLinePerSelector:
+    enabled: true
+
+  SpaceAfterCommna:
+    enabled: true
+
+  SpaceAfterPropertyColon:
+    enabled: true
+
+  SpaceAfterPropertyName:
+    enabled: true
+
