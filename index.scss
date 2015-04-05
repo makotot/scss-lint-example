@@ -191,3 +191,51 @@ $_arrow-leading-underscore: 0;
 //  display : block;
   display: block;
 }
+
+//.space-before-brace{
+.space-before-brace {
+  float: left;
+}
+
+.space-between-parens {
+//  color: rgb( 0, 0, 0, 0.2 );
+  color: rgb(0, 0, 0, 0.2);
+}
+
+.string-quotes {
+//  content: "";
+  content: '';
+}
+
+.trailing-semicolon {
+//  float: left
+  float: left;
+}
+
+.trailing-zero {
+  margin: 0.1em;
+}
+
+.unnecessary-manitissa {
+//  margin: 1.0em;
+  margin: 1em;
+}
+
+.url-format {
+//  background-image: url('http://example.com/img/image.png');
+  background-image: url('./img/image.png');
+}
+
+.url-quotes {
+//  background-image: url(./img/image.png);
+  background-image: url('./img/image.png');
+}
+
+.variables-for-property {
+  font-size: 13px;
+}
+
+.zero-unit {
+//  margin: 0px;
+  margin: 0;
+}

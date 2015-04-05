@@ -121,3 +121,38 @@ linters:
   SpaceAfterPropertyName:
     enabled: true
 
+  SpaceBeforeBrace:
+    enabled: true
+
+  SpaceBetweenParens:
+    enabled: true
+
+  StringQuotes:
+    enabled: true
+
+  TrailingSemicolon:
+    enabled: true
+
+  TrailingZero:
+    enabled: true
+
+  UnnecessaryManitissa:
+    enabled: true
+
+  UrlFormat:
+    enabled: true
+
+  UrlQuotes:
+    enabled: true
+
+  VariableForProperty:
+    enabled: true
+    properties:
+      - font-size
+
+  VendorPrefix:
+    enabled: true
+
+  ZeroUnit:
+    enabled: true
+

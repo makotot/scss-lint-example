@@ -296,3 +296,87 @@ IDセレクタを使用しない
 | `allow_single_line_padding` | 1行のルールセットのフォーマットを合わせることを許容するか否か | `false` |
 | `style` | スペースか改行か | `space` |
 
+
+
+## SpaceBetweenParens
+
+丸括弧の前後にスペースを入れない
+
+| オプション | 内容       | 初期値     |
+|------------|------------|------------|
+| `spaces` | スペースをいくつ許容するか | `0` |
+
+
+
+## StringQuotes
+
+文字列をシングルクォーテーションで囲う。エスケープせずにすませるためにダブルクォーテーションを使うのは許容。
+
+| オプション | 内容       | 初期値     |
+|------------|------------|------------|
+| `style` | シングルクォーテーションかダブルクォーテーションか | `single_quotes` |
+
+
+
+## TrailingSemicolon
+
+末尾にセミコロンをつける
+
+
+
+## TrailingZero
+
+小数点以下に不要な０を入れない
+
+
+
+## UnnecessaryManitissa
+
+不要な小数点をつけない
+
+
+
+## UnnecessaryParentReference
+
+親要素の参照が不要なときに`&`を使わない
+
+
+
+## UrlFormat
+
+urlにプロトコルやドメインを含めない
+
+
+
+## UrlQuotes
+
+urlを常にクォーテーションで囲う
+
+
+
+## VariableForProperty
+
+特定のプロパティの値を変数でもつこと
+
+| オプション | 内容       | 初期値     |
+|------------|------------|------------|
+| `properties` | チェック対象のプロパティの配列 |  |
+
+
+
+## VendorPrefix
+
+ベンダープレフィックスを記述しない。autoprefixerやmixinから付与する。
+
+| オプション | 内容       | 初期値     |
+|------------|------------|------------|
+| `identifier_list` | | |
+| `additional_identifiers` | | |
+| `excluded_identifiers` | | |
+
+
+
+## ZeroUnit
+
+0に単位をつけない
+
